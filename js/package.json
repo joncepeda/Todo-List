@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/joncepeda/Angular-Sample.git"
+    "url": "git://github.com/joncepeda/Todo List.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joncepeda/Angular-Sample/issues"
+    "url": "https://github.com/joncepeda/Todo List/issues"
   },
-  "homepage": "https://github.com/joncepeda/Angular-Sample"
+  "homepage": "https://github.com/joncepeda/Todo List"
 }
