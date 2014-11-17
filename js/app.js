@@ -15,7 +15,7 @@ todoApp.config(['$routeProvider', function ($routeProvider){
 			controller: 'SimpleController',
 			templateUrl: 'delete.html'
 		})
-		.otherwise({ redirectTo : '/view.html'});
+		.otherwise({ redirectTo : '/view'});
 }]);
 
 todoApp.controller('SimpleController',['$scope','$http',function ($scope,$http){
@@ -29,12 +29,12 @@ todoApp.controller('SimpleController',['$scope','$http',function ($scope,$http){
 		});
 
 		$scope.addList = function(){
-			$scope.list.push({
+			$scope.todolist.push({
 				name:$scope.newList.name, 
 				start_date: $scope.newList.start_date,
 				end_date:$scope.newList.end_date
+				//console.info($scope.newList.name);
 			});
-			console.log("p");
-			location.href = 'view.html';
+
 		};
 }]);
