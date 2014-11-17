@@ -2,7 +2,7 @@
   "name": "jon",
   "version": "0.0.0",
   "description": "Angular-Sample ============== This is just for practice only.",
-  "main": "gruntfile.js",
+  "main": "js/gruntfile.js",
   "dependencies": {
     "grunt-contrib-connect": "^0.8.0"
   },
