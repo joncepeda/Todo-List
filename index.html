@@ -1,0 +1,21 @@
+<html ng-app="todoApp">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+<h3>To do </h3>
+	<div>
+		<table class="table table-border">
+			<tr>
+				<td><input type="button" value="Create List" class= "btn btn-primary" onClick ="location.href = 'create.html'"></td>
+				<td><input type="button" value="View List" class="btn btn-success"></td>
+				<td><input type="button" value="Delete List" class="btn btn-warning"></td>
+			</tr>
+		</table>
+	</div>
+	<div ng-view=""></div>
+	<script src="js/angular.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-route.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
